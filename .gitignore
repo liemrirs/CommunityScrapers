@@ -4,3 +4,5 @@ yarn-error.log
 
 # Scraper-generated files
 /scrapers/*.ini
+
+/scrapers/torrents
