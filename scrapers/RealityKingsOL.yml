@@ -13,7 +13,7 @@ sceneByURL:
       - propertysex.com/scene/
       - shewillcheat.com/scene/
       - sexyhub.com/scene/
-      - transangels.com/scene/
+     # - transangels.com/scene/
       - welivetogether.com/scene/
 
     scraper: sceneScraper
