@@ -1,0 +1,47 @@
+name: TransAngels
+sceneByURL:
+  - action: scrapeXPath
+    url:
+      - www.transangels.com/scene/
+    scraper: sceneScraper
+xPathScrapers:
+  sceneScraper:
+    common:
+      $script: //script[@type="application/ld+json"]
+    scene:
+      Title:
+        selector: $script
+        postProcess:
+          - replace:
+              - regex: '.+"name": "[^-]+-\s*([^"]+)".+'
+                with: $1
+      Date:
+        selector: $script
+        postProcess:
+          - replace:
+              - regex: '.+"uploadDate": "([^T]+)T.+'
+                with: $1
+          - parseDate: 2006-01-02
+      Performers:
+        Name:
+          selector: //h2[contains(@class,"buffur")]/span/a/text()
+      Details:
+        selector: $script
+        postProcess:
+          - replace:
+              - regex: '.+"description": "([^"]+)".+'
+                with: $1
+              - regex: "<br?>|</br?>"
+                with:
+      Tags:
+        Name: //div[text()="Tags"]/../div/a/text()
+      Image:
+        selector: //img[@alt=""][contains(@src,"poster")]/@src|$script/text()
+        postProcess:
+          - replace:
+              - regex: '.*"thumbnailUrl": "([^"]+)".*'
+                with: $1
+      Studio:
+        Name:
+          fixed: transangels
+# Last Updated November 30, 2021
