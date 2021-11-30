@@ -13,13 +13,13 @@ xPathScrapers:
         selector: $script
         postProcess:
           - replace:
-              - regex: '.+"name": "[^-]+-\s*([^"]+)".+'
+              - regex: '.+name":\s*"([^"]+)".+'
                 with: $1
       Date:
         selector: $script
         postProcess:
           - replace:
-              - regex: '.+"uploadDate": "([^T]+)T.+'
+              - regex: '.+uploadDate":\s*"([^"]+)".+'
                 with: $1
           - parseDate: 2006-01-02
       Performers:
