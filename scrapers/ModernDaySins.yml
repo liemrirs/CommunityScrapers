@@ -2,7 +2,7 @@ name: Modern-Day Sins
 sceneByURL:
   - action: scrapeXPath
     url:
-      - www.moderndaysins.com/en/video
+      - www.moderndaysins.com/en/video/
     scraper: sceneScraper
 xPathScrapers:
   sceneScraper:
