@@ -1,39 +1,48 @@
-name: "FantasyMassage"
+name: GenderX Films
 sceneByURL:
   - action: script
     url:
-      - fantasymassage.com/en/video
+      - genderxfilms.com/en/video
     script:
       - python
       - Algolia.py
-      - fantasymassage
+      - genderxfilms
 sceneByFragment:
     action: script
     script:
       - python
       - Algolia.py
-      - fantasymassage
+      - genderxfilms
 sceneByName:
     action: script
     script:
       - python
       - Algolia.py
-      - fantasymassage
+      - genderxfilms
       - searchName
 sceneByQueryFragment:
     action: script
     script:
       - python
       - Algolia.py
-      - fantasymassage
+      - genderxfilms
       - validName
 galleryByURL:
   - action: script
     url:
-      - fantasymassage.com/en/photo/
+      - genderxfilms.com/en/photo/
     script:
       - python
       - Algolia.py
-      - fantasymassage
+      - genderxfilms
       - gallery
+movieByURL:
+  - action: script
+    url:
+      - genderxfilms.com/en/movie/
+    script:
+      - python
+      - Algolia.py
+      - genderxfilms
+      - movie
 # Last Updated December 22, 2022
