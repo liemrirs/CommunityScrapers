@@ -212,6 +212,8 @@ brandnewfaces.com|Vivid.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 brattyfamily.com|Mypervmom.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 brattymilf.com|Nubiles.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
 brattysis.com|Nubiles.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
+brazilian-transsexuals.com|GroobyNetwork-Brazilian.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Trans
+braziltgirls.xxx|GroobyNetwork-Brazilian.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Trans
 brazzers.com|Brazzers.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|CDP|-
 brickyates.com|brickyates.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 brookelynnebriar.com|ModelCentroAPI.yml|:heavy_check_mark:|:x:|:x:|:x:|Python|-
@@ -251,6 +253,7 @@ clubinfernodungeon.com|Algolia_ClubInfernoDungeon.yml|:heavy_check_mark:|:heavy_
 clubseventeen.com|ClubSeventeen.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
 clubsweethearts.com|ClubSeventeen.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
 cockhero.info|Cockhero.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+colbyknox.com|ColbyKnox.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Gay
 colette.com|Colette.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
 college-amateurs.com|ChickPass.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 college-uniform.com|CollegeUniform.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
@@ -321,6 +324,7 @@ czechsupermodels.com|Czechav.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 czechtaxi.com|Czechav.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 czechvr.com|CzechVR.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|VR
 czechvrcasting.com|CzechVR.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|VR
+czechvrnetwork.com|CzechVR.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|VR
 czechvrfetish.com|CzechVR.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|VR
 czechwifeswap.com|Czechav.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 d52q.com|JavLibrary.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|JAV
@@ -362,6 +366,7 @@ digitalplayground.com|MindGeek.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:he
 dillionation.com|ModelCentroAPI.yml|:heavy_check_mark:|:x:|:x:|:x:|Python|-
 dirty-coach.com|TeenMegaWorld.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 dirty-doctor.com|TeenMegaWorld.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+dirtyauditions.com|Nympho.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 dirtycosplay.com|LetsDoeIt.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 disruptivefilms.com|Algolia_disruptivefilms.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|Python|Gay
 dlsite.com|DLsite.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
@@ -417,7 +422,7 @@ fakeshooting.com|MMP_Network.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 faketaxi.com|MindGeek.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 falconstudios.com|GammaEntertainment.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Gay
 fallinlovia.com|ModelCentroAPI.yml|:heavy_check_mark:|:x:|:x:|:x:|Python|-
-famedigital.com|Algolia_Adultime.yml|:heavy_check_mark:|:x:|:x:|:heavy_checkmark:|Python|-
+famedigital.com|Algolia_Adultime.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|Python|-
 familycreep.com|GammaEntertainment.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Gay
 familyhookups.com|MindGeek.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|-|-
 familysexmassage.com|FamilySexMassage.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
@@ -769,6 +774,7 @@ maturegynospy.com|DollsHub.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 max-hardcore.com|MaxHardcore.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 maxinex.com|VNAGirls.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 meanawolf.com|MeanaWolf.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+meanbitches.com|MeanBitches.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|-|-|
 meetsuckandfuck.com|Wtfpass.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 men.com|Brazzers.yml|:heavy_check_mark:|:x:|:x:|:x:|CDP|Gay
 menatplay.com|MenAtPlay.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Gay
@@ -955,6 +961,7 @@ philavise.com|Philavise.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 pickupfuck.com|Wtfpass.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 pinklabel.tv|PinkLabelTV.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|-
 pinkoclub.com|Pinkoclub.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+pinkotgirls.com|Pinkoclub.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Trans
 pinupfiles.com|PinupDollars.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 pissplay.com|PissPlay.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Amateur Fetish
 pissynetwork.com|PissyNetwork.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
@@ -964,6 +971,7 @@ playboyplus.com|PlayboyPlus.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|
 playwithrae.com|PlayWithRae.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 plumperpass.com|PlumperPass.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 plushies.tv|Plushies.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+porkvendors.com|ThirdRockEnt.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 pornbox.com|Pornbox.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 porncz.com|PornCZ.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 pornditos.com|Pornditos.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
@@ -1045,6 +1053,7 @@ reidmylips.elxcomplete.com|Andomark.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 renderfiend.com|insex.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 restrictedsenses.com|RestrictedSenses.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 retroporncz.com|PornCZ.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+rickysroom.com|KBProductions.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|Python|-
 rim4k.com|Vip4K.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 rk.com|MindGeek.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|-|-
 roccosiffredi.com|Algolia_RoccoSiffredi.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|Python|-
@@ -1119,6 +1128,7 @@ slutinspection.com|ThirdRockEnt.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 smashed.xxx|Nubiles.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|-|-
 smashpictures.com|CombatZone.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 smokingmina.com|SmokingMina.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
+smutfactor.com|AdultEmpireCash.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 soapymassage.com|Algolia_Adultime.yml|:heavy_check_mark:|:x:|:x:|:x:|Python|-
 sofiemariexxx.com|SofieMariexxx.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 sologirlsmania.com|MVG.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
@@ -1363,6 +1373,7 @@ watchmygf.me|WatchMyGF.yml|:heavy_check_mark:|:x:|:x:|:x:|-|Tube Site
 watchreal.com|Hustler.yml|:heavy_check_mark:|:x:|:x:|:x:|CDP|-
 watchyoujerk.com|WatchYouJerk.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 waybig.com|Waybig.yml|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|-|-
+wcpclub.com|AdultEmpireCash.yml|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|-|-
 wearehairy.com|wearehairy.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
 webyoung.com|Algolia_Adultime.yml|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|Python|Lesbian
 wefuckblackgirls.com|WeFuckBlackGirls.yml|:heavy_check_mark:|:x:|:x:|:x:|-|-
@@ -1432,6 +1443,7 @@ For each scraper a short description, an optional comment with the usage and the
 Scraper | Description | Comments | PR
 --------|-------------|----------|:--:
 ComicInfoXML.yml| A ComixInfo XML gallery scraper | A python scraper that looks for ComicInfo xml compatible  files in the gallery's folder/filename and parses them | [#827](https://github.com/stashapp/CommunityScrapers/pull/827)
+CopyFromScene.yml| A gallery scraper that returns metadata from the first linked scene | A python scraper that returns metadata from copied scenes, first link the scene to the gallery then run the scraper on the gallery | 
 CopyToGallery.yml| A scene to gallery scraper | A python scene scraper that copies metadata from a scene to the associated galleries. Can optionally (check .py file) associate and copy meta to all galleries in the same folder as the scene| [#895](https://github.com/stashapp/CommunityScrapers/pull/895)
 dc-onlyfans.yml| An Onlyfans DB scene scraper | A python scraper that scrapes Only Fans scenes using the DB file (user_data.db) created from DIGITALCRIMINAL's tool | [#847](https://github.com/stashapp/CommunityScrapers/pull/847)
 Filename.yml | Scrape a scenes (local) filename to set as scene title | Utility scraper useful if you've bulk updated filenames outside of stash and want the changes synced back into stash | [#1136](https://github.com/stashapp/CommunityScrapers/pull/1136)
