@@ -26,7 +26,7 @@ def get_gallery_id_by_path(gallery_path):
               }
             }
             """
-    variables = {"galleries_filter": {"path": {'value': gallery_path, "modifier": "INCLUDES_ALL"}}}
+    variables = {"galleries_filter": {"path": {'value': gallery_path, "modifier": "EQUALS"}}}
     result = call_graphql(query, variables)
     log.debug("get_gallery_by_path callGraphQL result " + str(result))
     return result['findGalleries']['galleries'][0]['id']
@@ -110,7 +110,7 @@ if scene:
         if scene['studio']:
             studio = scene['studio']['id']
         gallery_input = {'id': gallery_id,
-                         'url': scene['url'],
+                         'urls': scene['urls'],
                          'title': scene['title'],
                          'date': scene["date"],
                          'details': scene['details'],

@@ -110,6 +110,10 @@ class Site:
             scene['title'] = data.get('title')
             scene['details'] = data.get('description')
             scene['studio'] = {"name": self.name}
+            scene['code'] = data.get('videoId')
+            director = data.get("directors")
+            if director is not None:
+                scene["director"] = ", ".join(d["name"] for d in data.get("directors", []))
 
             date = data.get('releaseDate')
             if date:
@@ -120,7 +124,12 @@ class Site:
                     scene['performers'].append({"name": model['name']})
 
             scene['tags'] = []
-            if data.get('tags'):
+            tags = data.get('tags')
+            categories = data.get('categories')
+            if tags == [] and categories:
+                for tag in data['categories']:
+                    scene['tags'].append({"name": tag['name']})
+            elif tags:
                 for tag in data['tags']:
                     scene['tags'].append({"name": tag})
 
@@ -155,6 +164,7 @@ class Site:
                         sc['title'] = scene.get('title')
                         sc['details'] = scene.get('description')
                         sc['url'] = f"https://www.{self.id.lower()}.com/videos/{slug}"
+                        sc['code'] = scene.get('videoId')
                         sc['studio'] = {"name": self.name}
                         date = scene.get('releaseDate')
                         if date:
@@ -164,7 +174,6 @@ class Site:
                             for model in scene['modelsSlugged']:
                                 sc['performers'].append(
                                     {"name": model['name']})
-
                         if scene.get('images'):
                             if scene['images'].get('listing'):
                                 maxWidth = 0
@@ -172,12 +181,13 @@ class Site:
                                     if image['width'] > maxWidth:
                                         sc['image'] = image['src']
                                     maxWidth = image['width']
-                    search_result.append(sc)
+                        search_result.append(sc)
             return search_result
         return None
 
-    def length(self, studio):
-        return len(studio.id)
+    @property
+    def length(self):
+        return len(self.id)
 
     getVideoQuery = """
     query getVideo($videoSlug: String, $site: Site) {
@@ -188,6 +198,10 @@ class Site:
             models {
                 name
             }
+            videoId
+            directors {
+                name
+            }
             images {
                 poster {
                     src
@@ -195,6 +209,9 @@ class Site:
                 }
             }
             tags
+            categories {
+                name
+            }
         }
     }
     """
@@ -211,6 +228,7 @@ class Site:
                         name
                         slugged: slug
                     }
+                    videoId
                     images {
                         listing {
                             src
@@ -224,20 +242,11 @@ class Site:
   """
 
 
-# sort site dicts into a list
-# by reverse id length
-def sortByLength(sites):
-    sorted = []
-    for s in sites:
-        sorted.append(s)
-    sorted.sort(reverse=True, key=s.length)
-    return sorted
-
-
 studios = {
     Site('Blacked Raw'),
     Site('Blacked'),
     Site('Deeper'),
+    Site('Milfy'),
     Site('Tushy'),
     Site('Tushy Raw'),
     Site('Slayed'),
@@ -264,7 +273,7 @@ if url:
 if search_query and "search" in sys.argv:
     search_query = search_query.lower()
     lst = []
-    filter = []
+    wanted = []
 
     #  Only search on specific site if the studio name is in the search query
     # ('Ariana Vixen Cecilia' will search only on Vixen)
@@ -272,25 +281,25 @@ if search_query and "search" in sys.argv:
     # if the first character is $, filter will be ignored.
     if search_query[0] != "$":
         # make sure longer matches are filtered first
-        studios_sorted = sortByLength(studios)
+        studios_sorted = sorted(studios, reverse=True, key=lambda s: s.length)
         for x in studios_sorted:
             if x.id.lower() in search_query:
-                filter.append(x.id.lower())
+                wanted.append(x.id.lower())
                 continue
             # remove the studio from the search result
             search_query = search_query.replace(x.id.lower(), "")
     else:
         search_query = search_query[1:]
 
-    if filter:
-        log.info(f"Filter: {filter} applied")
+    if wanted:
+        log.info(f"Filter: {wanted} applied")
 
     log.debug(f"Query: '{search_query}'")
 
     for x in studios:
-        if filter:
-            if x.id.lower() not in filter:
-                #log.debug(f"[Filter] {x.id} ignored")
+        if wanted:
+            if x.id.lower() not in wanted:
+                log.debug(f"[Filter] ignoring {x.id}")
                 continue
         s = x.getSearchResult(search_query)
         # merge all list into one
